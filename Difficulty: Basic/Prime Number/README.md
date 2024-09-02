@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/prime-number2314/1?page=1&difficulty=School,Basic&sortBy=submissions">Prime Number</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">For a given number <strong>n</strong> check if it is prime or not. A prime number is a number which is only<strong> divisible by 1 and itself</strong>.</span> </p>
+<h2><a href="https://www.geeksforgeeks.org/problems/prime-number2314/1">Prime Number</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">For a given number <strong>n</strong> check if it is prime or not. A prime number is a number which is only<strong> divisible by 1 and itself</strong>.</span> </p>
 <p><span style="font-size: 18px;"><strong>Examples :<br></strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>n = 5
 <strong>Output: </strong>1
