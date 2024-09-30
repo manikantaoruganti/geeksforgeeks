@@ -10,22 +10,15 @@ class Solution {
     // arr: input array
     // X: element to be searched for
     int search(vector<int>& arr, int x) {
-        for(int i=0;i<arr.size();i++)
-        {
-            if(arr[i]==x){
-                return i;
+        for(int i=0;i<arr.size();i++){
+            if(arr[i]==x)
+            return i;
             }
-            
-        
-        
-            
-        }
-        return -1;
+            return -1;
 
         // Your code here
     }
 };
-
 
 //{ Driver Code Starts.
 
