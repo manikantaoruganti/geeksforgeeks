@@ -11,15 +11,14 @@ using namespace std;
 class Solution {
   public:
     int majorityElement(vector<int>& arr) {
-       
-     sort(arr.begin(),arr.end());    int result= arr[arr.size()/2];
-int count=std::count(arr.begin(),arr.end(),result);
-if(count>arr.size()/2){
-    return result;
-}
-     else{
+        std::sort(arr.begin(),arr.end());
+        int result=arr[arr.size()/2];
+     int count=   std::count(arr.begin(),arr.end(),result);
+     if(count>arr.size()/2){
+         return result;
+     }else{
          return -1;
-     }   
+     }
 
         // your code here
     }
