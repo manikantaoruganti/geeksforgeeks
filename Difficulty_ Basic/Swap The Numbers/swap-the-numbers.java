@@ -16,3 +16,5 @@ class GFG {
         System.out.println(a + " " + b);
     }
 }
+
+
