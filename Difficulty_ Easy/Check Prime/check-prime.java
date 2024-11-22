@@ -7,3 +7,5 @@ class Solution {
         return true; // No divisors found, prime
     }
 }
+
+
