@@ -26,3 +26,5 @@ class Solution:
                 min_diff = diff
 
         return min_diff
+
+
