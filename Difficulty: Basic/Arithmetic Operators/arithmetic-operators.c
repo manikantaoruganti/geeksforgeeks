@@ -19,4 +19,4 @@ int main() {
     printf("%d %d %d %d %d", p, q, r, s, t);
     
     return 0;
-}
+} 
