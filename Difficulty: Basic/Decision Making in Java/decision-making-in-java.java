@@ -4,7 +4,7 @@ class Solution {
             return "lesser";
         } else if (n == m) {
             return "equal";
-        } else {
+        } else { 
             return "greater";
         }
     }
