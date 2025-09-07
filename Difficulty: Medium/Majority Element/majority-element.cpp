@@ -21,7 +21,7 @@ class Solution {
      }
 
         // your code here
-    }
+    } 
 };
 
 //{ Driver Code Starts.
