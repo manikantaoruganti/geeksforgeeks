@@ -11,7 +11,7 @@ int main() {
     int q = x - y;
     // perform Multiplication
     int r = x * y;
-    // perform Division
+    // perform Division 
     int s = x / y;
     // perform Modulo
     int t = x % y;
