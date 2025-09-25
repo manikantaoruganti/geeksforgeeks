@@ -29,7 +29,7 @@ public:
 
         return duplicates; // Return the duplicates  
     }  
-};
+};    
 
 //{ Driver Code Starts.
 
