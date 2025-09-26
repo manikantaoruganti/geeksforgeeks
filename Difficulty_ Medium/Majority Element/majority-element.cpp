@@ -9,7 +9,7 @@ using namespace std;
 // User function template for C++
 #include<algorithm>
 class Solution {
-  public:
+  public: 
     int majorityElement(vector<int>& arr) {
         std::sort(arr.begin(),arr.end());
         int result=arr[arr.size()/2];
