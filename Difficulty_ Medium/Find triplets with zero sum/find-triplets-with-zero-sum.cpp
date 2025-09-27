@@ -15,7 +15,7 @@ class Solution {
 
             while (left < right) {
                 int sum = arr[i] + arr[left] + arr[right];
-
+ 
                 if (sum == 0) {
                     return true;  // Triplet found
                 } else if (sum < 0) {
