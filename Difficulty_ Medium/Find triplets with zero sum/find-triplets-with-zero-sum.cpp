@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
   public:
-    // Function to find triplets with zero sum.
+    // Function to find triplets with zero sum. 
     bool findTriplets(vector<int> &arr) {
         int n = arr.size();
         sort(arr.begin(), arr.end());
