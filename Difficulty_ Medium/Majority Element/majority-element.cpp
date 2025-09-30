@@ -43,7 +43,7 @@ int main() {
 
         Solution obj;
         cout << obj.majorityElement(a) << endl;
-    }
+                 }
 
     return 0;
 }
