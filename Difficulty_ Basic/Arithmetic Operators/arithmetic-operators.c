@@ -3,8 +3,7 @@ int main() {
     int x, y;
     scanf("%d %d", &x, &y);
     
-    // code here
-     
+    
     // perform addition
     int p = x + y;
     // perform Subtraction
