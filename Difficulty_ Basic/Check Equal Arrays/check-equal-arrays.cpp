@@ -31,7 +31,7 @@ class Solution {
 int main() {
     int t;
     cin >> t;
-    cin.ignore(); // Ignore the newline character after t
+    cin.ignore(); 
     while (t--) {
         vector<int> arr1, arr2;
         string input1, input2;
