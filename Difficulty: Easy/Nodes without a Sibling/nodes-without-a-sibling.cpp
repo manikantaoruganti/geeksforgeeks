@@ -6,7 +6,7 @@ vector<int> noSibling(Node* node) {
     function<void(Node*)> dfs = [&](Node* root) {
         if (!root) return;
 
-        // Only left child exists → no sibling
+        // Only left child exists → no sibling 
         if (root->left && !root->right) 
             res.push_back(root->left->data);
 
