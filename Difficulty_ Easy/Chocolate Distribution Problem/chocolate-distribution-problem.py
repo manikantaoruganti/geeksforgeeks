@@ -15,7 +15,7 @@ class Solution:
 
         # Sort the packets
         arr.sort()
-
+ 
         # Initialize result as a large value
         min_diff = float("inf")
 
