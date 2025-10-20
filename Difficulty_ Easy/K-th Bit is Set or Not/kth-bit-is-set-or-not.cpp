@@ -16,7 +16,7 @@ class Solution {
        
       if(n & (1 << k))
 
-     return'yes'; // It can be a one liner logic!! Think of it!!
+     return'yes'; 
     }
 };
 
