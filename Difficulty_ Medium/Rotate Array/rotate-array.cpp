@@ -12,7 +12,7 @@ public:
         // Reverse the whole array
         reverse(arr.begin(), arr.end());
     }
-};
+}; 
  
 
  
