@@ -18,7 +18,7 @@ public:
             // Overflow: ignore or handle as you prefer
             return;
         }
-        rear = (rear + 1) % n;
+        rear = (rear + 1) % n; 
         arr[rear] = x;
         ++count;
     }
