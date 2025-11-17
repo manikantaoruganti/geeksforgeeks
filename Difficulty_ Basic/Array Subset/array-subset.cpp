@@ -13,7 +13,7 @@ class Solution {
             freq[x]++;
         }
 
-        // Check if each element in b exists in a with sufficient count
+        
         for (int x : b) {
             if (freq[x] == 0) {
                 return false;
