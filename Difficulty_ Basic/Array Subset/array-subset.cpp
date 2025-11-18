@@ -17,7 +17,7 @@ class Solution {
         for (int x : b) {
             if (freq[x] == 0) {
                 return false;
-            }
+            } 
             freq[x]--;
         }
 
