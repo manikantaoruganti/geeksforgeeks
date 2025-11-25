@@ -11,7 +11,7 @@ class Solution {
         queue<pair<Node*, int>> q;
         q.push({root, 0});
         while (!q.empty()) {
-            auto front = q.front();
+            auto front = q.front(); 
             q.pop();
 
             Node* node = front.first;
