@@ -12,7 +12,7 @@ class Solution {
         q.push({root, 0});
         while (!q.empty()) {
             auto front = q.front(); 
-            q.pop();
+            q.pop(); 
 
             Node* node = front.first;
             int hd = front.second;
