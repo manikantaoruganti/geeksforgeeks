@@ -7,7 +7,7 @@ private:
     int front;                // index of front element
     int rear;                 // index of rear element
     int count;                // current number of elements
- 
+  
 public:
     // Constructor: initialize with capacity n
     myQueue(int capacity) : n(capacity), arr(capacity), front(0), rear(-1), count(0) {}
