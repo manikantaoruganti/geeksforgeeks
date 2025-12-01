@@ -30,7 +30,6 @@ class Solution {
         for (auto it : hdNodeMap) {
             ans.push_back(it.second);
         }
-
         return ans;
     }
 };
