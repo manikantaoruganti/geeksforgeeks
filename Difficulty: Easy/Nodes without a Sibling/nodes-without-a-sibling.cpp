@@ -16,7 +16,7 @@ vector<int> noSibling(Node* node) {
 
         dfs(root->left);
         dfs(root->right);
-    };
+    }; 
 
     dfs(node);
 
