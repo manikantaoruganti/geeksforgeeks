@@ -8,7 +8,7 @@ vector<int> noSibling(Node* node) {
 
         // Only left child exists → no sibling 
         if (root->left && !root->right) 
-            res.push_back(root->left->data);
+            res.push_back(root->left->data); 
 
         // Only right child exists → no sibling 
         if (root->right && !root->left) 
