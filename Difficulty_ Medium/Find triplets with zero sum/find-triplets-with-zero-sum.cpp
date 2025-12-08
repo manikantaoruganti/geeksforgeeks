@@ -25,11 +25,7 @@ class Solution {
                 } 
             } 
         }
-
         return false;  // No triplet found
     }
 };
-
-
-
 // Commit for 2024-12-14
