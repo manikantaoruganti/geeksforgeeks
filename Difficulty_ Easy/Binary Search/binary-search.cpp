@@ -1,9 +1,7 @@
 
 #include <bits/stdc++.h>
 using namespace std;
- 
-// User function template for C++
-class Solution {
+     class Solution {
   public:
     int binarysearch(vector<int> &arr, int k) {
         int low=0;
