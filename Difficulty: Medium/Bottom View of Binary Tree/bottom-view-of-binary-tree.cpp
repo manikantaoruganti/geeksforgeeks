@@ -13,7 +13,6 @@ class Solution {
             q.pop(); 
             Node* node = front.first;
             int hd = front.second;
-
             // Overwrite node data for each HD
             hdNodeMap[hd] = node->data;
 
