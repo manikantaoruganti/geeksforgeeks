@@ -15,7 +15,6 @@ class Solution {
             int hd = front.second;
             // Overwrite node data for each HD
             hdNodeMap[hd] = node->data;
-
             // Left child → HD - 1
             if (node->left) q.push({node->left, hd - 1});
             // Right child → HD + 1
