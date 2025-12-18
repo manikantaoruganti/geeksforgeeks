@@ -21,7 +21,6 @@ if(n<=0){
     return   n==1;  // Your code here
     }
 };
-
 //{ Driver Code Starts.
 
 // Driver code
