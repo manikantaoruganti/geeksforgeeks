@@ -25,7 +25,7 @@ class Solution {
 
 
 
-//{ Driver Code Starts.
+//{ Driver Code Stars.
 
 int main() {
 
