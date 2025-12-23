@@ -22,7 +22,6 @@ public:
         arr[rear] = x;
         ++count;
     }
-
     // 2 : dequeue()
     void dequeue() {
         if (isEmpty()) return;
