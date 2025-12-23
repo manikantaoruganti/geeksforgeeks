@@ -13,7 +13,6 @@ vector<int> noSibling(Node* node) {
         // Only right child exists → no sibling 
         if (root->right && !root->left) 
             res.push_back(root->right->data);
-
         dfs(root->left);
         dfs(root->right);
     }; 
