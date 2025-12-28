@@ -6,7 +6,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function template for C++
-
 class Solution {
   public:
     int middle(int A, int B, int C) {
@@ -19,7 +18,7 @@ class Solution {
         }
     }
 };
-
+l
 
 //{ Driver Code Starts.
 int main()
