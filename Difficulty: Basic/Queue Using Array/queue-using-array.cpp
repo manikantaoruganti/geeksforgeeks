@@ -30,7 +30,6 @@ public:
         front = (front + 1) % n;
         --count;
     }
-
     // 3 : getFront()
     int getFront() const {
         if (isEmpty()) return -1;
