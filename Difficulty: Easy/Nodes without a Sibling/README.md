@@ -7,7 +7,6 @@
     20
     /     
   113 </span>
-
 <span style="font-size: 18px;"><strong>Output: [</strong></span><span style="font-size: 18px;">20, 113]
 <strong>Explanation: </strong>Nodes 20 and 113 dont have any siblings.</span></pre>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>root[] = [1, 2, 3, 4]
