@@ -4,7 +4,7 @@ class myQueue {
 private:
     int n;                  // capacity
     std::vector<int> arr;   // underlying array
-    int front;                // index of front element
+    int front;                // index of front element 
     int rear;                 // index of rear element
     int count;                // current number of elements
   
