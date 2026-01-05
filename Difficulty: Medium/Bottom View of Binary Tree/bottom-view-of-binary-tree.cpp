@@ -6,7 +6,7 @@ class Solution {
         // Map to store horizontal distance -> last node value
         map<int, int> hdNodeMap;
         // Queue for level order traversal (stores pair of node and its HD)
-        queue<pair<Node*, int>> q;
+        queue<pair<Node*, int>> q; 
         q.push({root, 0});
         while (!q.empty()) {
             auto front = q.front();  
