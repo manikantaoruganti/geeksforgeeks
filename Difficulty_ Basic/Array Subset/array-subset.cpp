@@ -12,7 +12,7 @@ class Solution {
         for (int x : a) {
             freq[x]++;
         }
-
+ 
         
         for (int x : b) {
             if (freq[x] == 0) {
