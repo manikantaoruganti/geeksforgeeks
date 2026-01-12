@@ -15,7 +15,6 @@ class Solution {
             return false;
         }
 
-     
         sort(arr1.begin(), arr1.end());
         sort(arr2.begin(), arr2.end());
 
