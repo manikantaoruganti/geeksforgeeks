@@ -9,7 +9,6 @@ class Node {
     }
 
 }; */
-
 class Solution {
 public:
     int getMiddle(Node* head) {
@@ -20,7 +19,6 @@ public:
             fast = fast->next->next;
             slow = slow->next;
         }
-
         return slow->data;
     }
 };
