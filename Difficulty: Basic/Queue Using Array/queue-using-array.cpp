@@ -35,13 +35,11 @@ public:
         if (isEmpty()) return -1;
         return arr[front];
     }
-
     // 4 : getRear()
     int getRear() const {
         if (isEmpty()) return -1;
         return arr[rear];
     }
-
     // 5 : isEmpty()
     bool isEmpty() const {
         return count == 0;
