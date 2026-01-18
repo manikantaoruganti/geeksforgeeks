@@ -17,7 +17,6 @@ class Solution {
      }else{
          return -1;
      }
-
         // your code here
     } 
 };
