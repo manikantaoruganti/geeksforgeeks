@@ -33,11 +33,10 @@ public:
                 return slow->data;  // Start of the cycle
             }
         }
-
         return -1;  // No cycle
     }
 };
 
 
 
-// Commit for 2024-12-13
+//
