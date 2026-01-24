@@ -21,7 +21,6 @@ class Solution{
 int main()
 {
     int T;
-    
     //taking testcases
     cin>>T;
     
