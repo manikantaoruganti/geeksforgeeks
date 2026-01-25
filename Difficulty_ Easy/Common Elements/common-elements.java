@@ -7,7 +7,6 @@ class Solution {
         // Sort both arrays
         Arrays.sort(a);
         Arrays.sort(b);
-        
         int i = 0, j = 0;
         
         // Two-pointer approach to find common elements
