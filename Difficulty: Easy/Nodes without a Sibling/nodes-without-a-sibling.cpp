@@ -15,7 +15,6 @@ vector<int> noSibling(Node* node) {
         dfs(root->left);
         dfs(root->right);
     };
-
     dfs(node);
     if (res.empty()) return {-1}; // no nodes without siblings
     sort(res.begin(), res.end());
