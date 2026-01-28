@@ -3,7 +3,7 @@ class Solution {
     vector<int> bottomView(Node *root) {
         vector<int> ans;
         if (!root) return ans;
-        // Map to store horizontal distance -> last node value
+        
         map<int, int> hdNodeMap;
         // Queue for level order traversal (stores pair of node and its HD)
         queue<pair<Node*, int>> q; 
