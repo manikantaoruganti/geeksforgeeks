@@ -6,7 +6,7 @@ private:
     std::vector<int> arr;   // underlying array
     int front;                // index of front element 
     int rear;                 // index of rear element
-    int count;                // current number of elements
+    int count;                // current number of ele
   
 public:
     // Constructor: initialize with capacity n
