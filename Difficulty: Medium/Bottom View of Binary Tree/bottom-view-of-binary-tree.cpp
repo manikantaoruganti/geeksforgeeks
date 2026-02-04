@@ -20,7 +20,6 @@ class Solution {
             // Right child → HD + 1
             if (node->right) q.push({node->right, hd + 1});
         }
-        // Extract values from leftmost to rightmost HD
         for (auto it : hdNodeMap) {
             ans.push_back(it.second);
         }
