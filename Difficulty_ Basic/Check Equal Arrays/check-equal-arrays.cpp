@@ -4,12 +4,10 @@
 using namespace std;
 
 
-// } Driver Code Ends
-// User function template for C++
 
 class Solution {
   public:
-    // Function to check if two arrays are equal or not.
+
     bool check(vector<int>& arr1, vector<int>& arr2) {
         if (arr1.size() != arr2.size()) {
             return false;
