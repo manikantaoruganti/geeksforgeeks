@@ -7,7 +7,7 @@ class Solution {
         
         double avg = sum / arr.length;
         
-        // Format to 2 decimal places and return as String
+        
         return String.format("%.2f", avg);
     }
 }
