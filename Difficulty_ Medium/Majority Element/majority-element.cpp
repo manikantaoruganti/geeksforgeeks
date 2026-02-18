@@ -3,7 +3,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// User function template for C++
 #include<algorithm>
 class Solution {
   public: 
