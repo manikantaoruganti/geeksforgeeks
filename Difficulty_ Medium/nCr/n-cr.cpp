@@ -17,7 +17,7 @@ public:
             return 0;
         }
         
-        // Optimization: C(n, r) == C(n, n-r), so we calculate the smaller value of r
+      
         if (r > n - r) {
             r = n - r;
         }
