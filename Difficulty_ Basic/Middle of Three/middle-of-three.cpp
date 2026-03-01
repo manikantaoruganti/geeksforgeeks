@@ -1,9 +1,5 @@
-
-
 #include <bits/stdc++.h>
 using namespace std;
-
-
 class Solution {
   public:
     int middle(int A, int B, int C) {
@@ -16,8 +12,6 @@ class Solution {
         }
     }
 };
-l
-
 //{ Driver Code Starts.
 int main()
 {
