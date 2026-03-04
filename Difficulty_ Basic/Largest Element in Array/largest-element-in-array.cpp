@@ -1,4 +1,4 @@
-//{ Driver Code Starts
+
 #include <bits/stdc++.h>
 #include <iostream>
 #include <sstream>
@@ -6,7 +6,6 @@
 #include <vector>
 using namespace std;
 
-// } Driver Code Ends 
 // User function Template for C++
 class Solution {
   public:
