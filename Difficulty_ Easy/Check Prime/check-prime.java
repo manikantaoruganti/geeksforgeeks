@@ -4,7 +4,7 @@ class Solution {
         for (int i = 2; i * i <= n; i++) {
             if (n % i == 0) return false; // Found a divisor, not prime
         }
-        return true; // No divisors found, prime
+        return true; 
     }
 }
 
