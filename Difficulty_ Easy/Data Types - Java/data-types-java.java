@@ -7,7 +7,7 @@ class Geeks {
         double m = r + l;     // r plus l
         int s = a / d;        // a divided by d
         
-        // Printing all the results
+        
         System.out.println(p + " " + q + " " + r + " " + m + " " + s);
     }
 }
