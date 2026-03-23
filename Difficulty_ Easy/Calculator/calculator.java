@@ -6,10 +6,8 @@ class Solution {
             System.out.print(a - b);
         } else if (opr == 3) {
             System.out.print(a * b);
-        } else {
+    } else {
             System.out.print("Invalid Input");
         }
     }
 }
-
- 
