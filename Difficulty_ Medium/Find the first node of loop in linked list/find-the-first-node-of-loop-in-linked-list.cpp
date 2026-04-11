@@ -33,7 +33,7 @@ public:
                 return slow->data;  // Start of the cycle
             }
         }
-        return -1;  // No cycle
+        return -1;  
     }
 };
 
