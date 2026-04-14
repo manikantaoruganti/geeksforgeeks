@@ -14,7 +14,7 @@ public:
         unordered_map<int, int> countMap; // To store the count of occurrences  
         vector<int> duplicates; // To store the result  
 
-        // Count occurrences of each element  
+    
         for (int num : arr) {  
             countMap[num]++;  
         }  
@@ -29,8 +29,6 @@ public:
         return duplicates; // Return the duplicates  
     }  
 };    
-
-//{ Driver Code Starts.
 
 int main() {
     int t; // Number of test cases
