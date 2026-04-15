@@ -21,8 +21,6 @@ using namespace std;
         // code here
     }
 };
-
-//{ Driver Code Starts.
 int main() {
     int t;
     cin >> t;
