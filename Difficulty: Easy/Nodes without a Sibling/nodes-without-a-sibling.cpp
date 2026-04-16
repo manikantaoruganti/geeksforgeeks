@@ -1,8 +1,6 @@
 vector<int> noSibling(Node* node) {
     vector<int> res;
-    if (!node) return {-1}; // empty tree
-
-    // Recursive helper function
+    if (!node) return {-1}; 
     function<void(Node*)> dfs = [&](Node* root) {
         if (!root) return;
          
