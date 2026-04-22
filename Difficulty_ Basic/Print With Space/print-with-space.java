@@ -7,7 +7,3 @@ public class Solution {
         System.out.println(a + " " + b);
     }
 }
-
-// Commit for 2024-11-13
-
-// Commit for 2024-12-30
