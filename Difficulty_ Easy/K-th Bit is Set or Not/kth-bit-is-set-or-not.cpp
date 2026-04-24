@@ -6,11 +6,9 @@ using namespace std;
 
 
 // } Driver Code Ends
-// User function Template for C++
 
 class Solution {
   public:
-    // Function to check if Kth bit is set or not.
     bool checkKthBit(int n, int k) {
         // Your code here
        
@@ -25,12 +23,12 @@ class Solution {
 // Driver Code
 int main() {
     int t;
-    cin >> t; // taking testcases
+    cin >> t; 
     while (t--) {
         long long n;
-        cin >> n; // input n
+        cin >> n; 
         int k;
-        cin >> k; // bit number k
+        cin >> k; 
         Solution obj;
         if (obj.checkKthBit(n, k))
             cout << "Yes" << endl;
@@ -42,4 +40,4 @@ int main() {
 // } Driver Code Ends
 
 
-// Commit for 2024-12-01
+
