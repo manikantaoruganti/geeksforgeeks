@@ -5,11 +5,11 @@ import java.util.*;
 class Geeks {
     static void getInput() {
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt(); // Taking the number of testcases
+        int t = sc.nextInt();
         while (t-- > 0) {
-            int a = sc.nextInt();  // reading integer
-            sc.nextLine();         // clearing the input buffer
-            String s = sc.nextLine(); // reading full line string
+            int a = sc.nextInt(); 
+            sc.nextLine();       
+            String s = sc.nextLine(); 
             
             System.out.println(a);
             System.out.println(s);
