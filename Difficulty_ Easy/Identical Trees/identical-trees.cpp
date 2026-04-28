@@ -21,7 +21,6 @@ struct Node
 class Solution
 {
     public:
-    //Function to check if two trees are identical.
     bool isIdentical(Node *r1, Node *r2)
     {
         if(r1==NULL && r2==NULL){
@@ -34,8 +33,6 @@ class Solution
         //Your Code here
     }
 };
-
-//{ Driver Code Starts.
 
 // Function to Build Tree
 Node *buildTree(string str) {
